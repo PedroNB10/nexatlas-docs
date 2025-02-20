@@ -64,7 +64,7 @@ For this integration, the SimConnect library is used to communicate with the Mic
 
 ### Xplane 10 and 11
 
-For this integration, the NASA library XPlaneConnect is used to retrieve data from X-Plane via a plugin, also using Python. The server runs in the background, and Electron acts as the client for this API, which is built with Flask. The server will run on port 4915. If you want to change how this API works, feel free to update the python-simconnect.py file located in `assets/servers-sdk-apis/xplane-api-server`. After that, you'll need to regenerate the executable file by running the `generate-exe.py` script, which will automatically update the .exe file.
+For this integration, the NASA library XPlaneConnect is used to retrieve data from X-Plane via a plugin, also using Python. The server runs in the background, and Electron acts as the client for this API, which is built with Flask. The server will run on port 4915. If you want to change how this API works, feel free to update the xplane-api-server.py file located in `assets/servers-sdk-apis/xplane-api-server`. After that, you'll need to regenerate the executable file by running the `generate-exe.py` script, which will automatically update the .exe file.
 
 
 
